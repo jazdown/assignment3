@@ -1,0 +1,230 @@
+@charset "utf-8";
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+    font-size: 100%;
+}
+
+img {
+	width: 100%;
+    display: block;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFF;
+}
+
+header {
+    overflow: hidden;
+    background-color: #F9C;
+}
+
+.logo-container {
+    position: absolute;
+    width: 50%;
+    right: 0;
+}
+
+.logo {
+    position: relative;
+    left: -38%;
+    width: 10rem;
+}
+
+.nav-top {
+    margin: 4rem 0 0;
+    overflow: hidden;
+}
+
+.nav-top ul {
+    margin: 0;
+    padding:0;
+    background-color: black;
+    text-align: center;
+}
+
+.nav-top li {
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.nav-top a,
+.nav-top a:link, /* need to do every time */
+.nav-top a:visited {
+    display: inline-block;
+    margin: 0 2%;
+    padding: 1rem 10%;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Clicker Script', cursive;
+    text-decoration: none;
+}
+
+.selected {
+    background-color: #F9C;
+}
+
+.billboard {
+    overflow: hidden;
+    background-image: url(../images/raspberry-cupcakes.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50rem;
+    border-bottom: 
+}
+
+.billboard h1 {
+    margin: 5rem 0;
+    padding: .25rem 5%;
+    font-weight: normal;
+    font-size: 2.5rem;
+    font-family: 'Clicker Script', cursive;
+    line-height: 4rem;
+    color: white;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+article {
+    margin: 0;
+    padding: 0.5rem 5%;
+    font-family: futura, century gothic, sans-serif;
+    line-height: 1.75rem;
+}
+
+article p:first-child {
+    margin: 1.5rem 0 1rem;
+    font-size: 2rem;
+    line-height: 2.75rem;
+}
+
+p {
+    margin: 0.5rem 0 2rem;
+}
+.boxlinks { 
+    overflow:  hidden;
+}
+
+.boxlinks figure {
+    margin: 0;
+    padding: 0;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    background-color: black;
+    border-radius: 10px
+}
+
+.boxlinks a,
+.boxlinks a:link,
+.boxlinks a:visited {
+    color: white;
+    text-decoration: none;
+    float: left;
+    width: 45%;
+    margin: 0 10% 1.5rem 0;
+    padding: 0;
+}
+
+.boxlinks a:nth-child(even) {
+    margin: 0;     
+}
+
+.boxlinks figcaption {
+    margin: 0.75rem 0 0.25rem;
+    font-size: 1.75rem;
+    font-family: 'Clicker Script', cursive;
+    text-align: center;
+}
+
+.social-networks,
+.social-networks figure { 
+    overflow:  hidden;
+    margin: 0 0 0.75rem;
+}
+
+.social-networks a,
+.social-networks a:link,
+.social-networks a:visited {
+    color: white;
+    text-decoration: none;
+    float: left;
+    margin: 0 4% auto 0; /* 22 x 4 = 88, 100 - 88 = 12, 12 / 3 = 4 */
+    padding: 0;
+    width: 22%;
+}
+
+.social-networks a:last-child {
+    margin: 0;     
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+    border-top-style: solid;
+    border-width: 6px;
+    border-color: #F9C;
+}
+    
+.nav-bottom ul {
+    list-style-type: none;
+    font-family: futura, century gothic, sans-serif;
+    margin: 1rem 5% 4rem;
+    padding: 0;
+}
+
+.nav-bottom a,
+.nav-bottom a:link,
+.nav-bottom a:visited {
+    color: white;
+    text-decoration: none;
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+}
+
+.products {
+    overflow: hidden;
+    margin: 0 0 1.5rem;
+    padding: 0;
+}
+
+.products img {
+    float: left;
+    width: 30%; 
+    margin: 0 5% 0 0;
+    padding: 0;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    background-color: black;
+    border-radius: 10px
+}
+
+.products figcaption {
+    float: right;
+    width: 65%;
+    margin: 0;
+    padding: 0;
+
+
+
+    
