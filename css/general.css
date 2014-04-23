@@ -67,11 +67,11 @@ header {
 }
 
 .nav-top a,
-.nav-top a:link, /* need to do every time */
+.nav-top a:link,
 .nav-top a:visited {
     display: inline-block;
     margin: 0 2%;
-    padding: 1rem 10%;
+    padding: 1rem 5%;
     color: white;
     font-size: 2rem;
     font-family: 'Clicker Script', cursive;
@@ -88,14 +88,15 @@ header {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 50rem;
-    border-bottom: 
+    border-bottom: 8px solid #F9C;
 }
 
 .billboard h1 {
-    margin: 5rem 0;
+    margin: 5.5rem 0;
     padding: .25rem 5%;
+    text-align: center;
     font-weight: normal;
-    font-size: 2.5rem;
+    font-size: 2.25rem;
     font-family: 'Clicker Script', cursive;
     line-height: 4rem;
     color: white;
@@ -118,6 +119,7 @@ article p:first-child {
 p {
     margin: 0.5rem 0 2rem;
 }
+
 .boxlinks { 
     overflow:  hidden;
 }
@@ -181,7 +183,7 @@ footer {
     background-color: black;
     overflow: hidden;
     border-top-style: solid;
-    border-width: 6px;
+    border-width: 8px;
     border-color: #F9C;
 }
     
@@ -224,7 +226,22 @@ footer {
     width: 65%;
     margin: 0;
     padding: 0;
+}
 
+.baker {
+    margin: 0 0 2.5rem;
+    padding: 0;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    background-color: black;
+    border-radius: 10px;
+}
 
-
-    
+.baker figcaption {
+    font-size: 0.8rem;
+    background-color: black;
+    padding: 2%;
+    text-align: center;
+    color: #F9C;
+}
